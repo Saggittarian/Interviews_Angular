@@ -1,0 +1,21 @@
+<p>Flower list</p>
+
+
+<div *ngFor="let flower of flowers">
+    <app-details [flower]="flower"></app-details>
+</div>  
+
+<!--
+<table>
+    <tr>
+
+        <div *ngFor = "let flower of flowers">
+            <td>
+                <app-details [flower]="flower">
+                </app-details>
+            </td>
+        <app-details [flower]="flower"></app-details>
+
+    </tr>
+</table>
+-->

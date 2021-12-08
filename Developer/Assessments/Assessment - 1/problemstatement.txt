@@ -1,0 +1,7 @@
+Requirement 1:
+
+Make the application compile and render on browser
+
+Requirement 2:
+
+Under the flower tiles there will be a counter to increment and decrement the likes. Make the binding work as you action such that the likes count reflect on the screen.

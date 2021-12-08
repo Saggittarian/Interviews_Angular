@@ -1,0 +1,9 @@
+<H3>Flower Details</H3>
+
+<img [src]="flower.imageUrl" width="200" height="200">
+<p>Title:<b>{{flower.title}}</b></p>
+<p>Desc: <b>{{flower.desc}}</b> </p>
+<p>Quantity: <b>{{flower.qty}}</b> </p>
+<p>Unit Cost: <b>{{flower.unitcost}}</b> </p>
+<p>Likes: <b>{{flower.likes}}</b> </p>
+<app-counter [count]="flower.likes"></app-counter>
