@@ -5,3 +5,28 @@ Make the application compile and render on browser
 Requirement 2:
 
 Under the flower tiles there will be a counter to increment and decrement the likes. Make the binding work as you action such that the likes count reflect on the screen.
+
+Requirement 3:
+
+Show the flowers details column mode (side by side) instead of row wise. Refer image side-by-side.PNG
+
+Requirement 4: Authenticated state
+
+Make login as a separate routing page and force the application to check authenticated sate on every routing and fallback to login page if not authenticated. 
+On login page, have basic input validation,
+ - username to enter valid email pattern
+ - password to contain alphabets, numbers and special characters with a minimum length of 8 characters
+
+Requirement 5: 
+
+Change p tag font family to system-ui inside details component and same should affect p tag inside list component.
+No explict change to list component css file should be made. The change has to be done in such a way any change to details component css should automatically apply to list component html elements.
+
+Requirement 6:
+
+
+
+
+
+
+
